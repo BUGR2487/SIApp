@@ -1,0 +1,32 @@
+.titulo
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.texto
+{
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.boton
+{
+    width: 80%;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 35px;
+}
+
+.boton-rojo
+{
+    color: red;
+}
