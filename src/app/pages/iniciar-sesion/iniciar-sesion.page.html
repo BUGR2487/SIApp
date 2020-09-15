@@ -1,3 +1,5 @@
+<app-header></app-header>
+
 <ion-content padding class="backgroundColor">
 
   <ion-img class="logo" src="/assets/Logo_SIApp.png"></ion-img>
@@ -15,12 +17,12 @@
   <ion-item class="Inputs">
     <ion-label position="floating">Contraseña</ion-label>
 
-    <ion-input type="password" 
+    <ion-input type="password"
                name="TxtPassword"
                required>
     </ion-input>    
   </ion-item>
 
-  <ion-button class="boton" expand="block" fill="outline">Iniciar Sesión</ion-button>
+  <ion-button class="boton" expand="block" fill="outline" routerLink="/pantalla-principal" color="secondary">Iniciar Sesión</ion-button>
 
 </ion-content>

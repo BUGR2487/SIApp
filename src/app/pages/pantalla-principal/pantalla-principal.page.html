@@ -2,7 +2,7 @@
 
   <ion-item class="informacion-usuario">
     <ion-avatar slot="start">
-      <img src="/assets/Usuario.png">
+      <img src="/assets/Usuario.png" routerLink="/editar-perfil">
     </ion-avatar>
     <ion-label>Brandon Uriel García Ramos</ion-label>
   </ion-item>
@@ -10,13 +10,13 @@
   <ion-img class="imagen" src="/assets/BotonSOS.png"></ion-img>
 
   <div class="botones">
-    <div class="boton">
-      <ion-img class="iconos" src="/assets/Contactos.png"></ion-img>
+    <div class="boton" routerLink="/ruta">
+      <ion-img class="iconos" src="/assets/Ruta.png"></ion-img>
       <ion-label class="etiquetas">Ruta</ion-label>
     </div>
 
-    <div class="boton">
-      <ion-img class="iconos" src="/assets/Ruta.png"></ion-img>
+    <div class="boton" routerLink="/lista-contactos">
+      <ion-img class="iconos" src="/assets/Contactos.png"></ion-img>
       <ion-label class="etiquetas">Contactos</ion-label>
     </div>
   </div>
