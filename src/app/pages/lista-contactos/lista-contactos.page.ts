@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ContactosService } from '../../services/contactos.service';
 
 @Component({
   selector: 'app-lista-contactos',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaContactosPage implements OnInit {
 
-  constructor() { }
+  constructor( private contactosService: ContactosService ) { }
 
   ngOnInit() {
+
+    this.contactosService.getContactos().subscribe( resp => {
+      console.log(resp);
+    });
+
   }
 
 }
